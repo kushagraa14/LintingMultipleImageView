@@ -11,6 +11,7 @@ import UIKit
 final class ViewController: UIViewController {
 
     // MARK: - Properties
+    var kushagra
     @IBOutlet private weak var multipleImageView: MultipleImageView! {
         didSet {
             multipleImageView.layer.cornerRadius = 20

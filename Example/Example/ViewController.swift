@@ -9,12 +9,12 @@ import MultipleImageView
 import UIKit
 
 final class ViewController: UIViewController {
-
+    var kushu
     // MARK: - Properties
     var kushagra
     @IBOutlet private weak var multipleImageView: MultipleImageView! {
         didSet {
-            multipleImageView.layer.cornerRadius = 20
+                                      multipleImageView.layer.cornerRadius = 20
             multipleImageView.layer.masksToBounds = true
             multipleImageView.delegate = self
         }
